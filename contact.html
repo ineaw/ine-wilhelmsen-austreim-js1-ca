@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JS1 Course Assignment</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <link rel="icon" href="data:;base64,=" />
+    </head>
+    <body>
+        <header>
+            <h1>Contact </form></h1>
+        </header>
+        <main>
+        <div class="backContainer">
+            <a href="/" class="back">Back</a>
+        </div>           
+            <div class="container">
+ <div id="message"></div>
+                <form id="contactForm">
+<div>
+                <label>
+                    Name
+                    <input name="fullName" placeholder="Enter name"  id="fullName"/>
+                </label>
+                <div class="form-error" id="fullNameError">Please enter a valid name</div>
+            </div>
+            <div>
+            <label>
+                Email
+                <input name="email" placeholder="Enter email address" id="email"/>
+            </label>
+            <div class="form-error" id="emailError">Please enter avalid email address</div>
+        </div>
+            <div>
+                <label>
+                    Subject
+                    <input name="subject" placeholder="Minimum 10 characters" id="subject"/>
+                </label>
+                <div class="form-error" id="subjectError">Please enter minimum 10 characters</div>
+            </div>
+            <div>
+                <label>
+                    Address 
+                    <textarea name="address" placeholder="Minimum 25 characters" id="address"></textarea>
+                </label>
+                <div class="form-error" id="addressError">Please enter minimum 25 characters</div>
+         </div>
+            <button>Send</button>
+        </form>
+    </div>
+        </main>
+<script src="js/contact.js"></script>
+    </body>
+</html>
